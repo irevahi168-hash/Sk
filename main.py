@@ -5,7 +5,7 @@ import threading
 import os
 
 # আপনার বোট টোকেনটি এখানে দিন
-API_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+API_TOKEN = '8766747501:AAEAUrdlqvh7t8zfo2yVKx1k8YZfCwRvlbY'
 bot = telebot.TeleBot(API_TOKEN)
 server = Flask(__name__)
 
