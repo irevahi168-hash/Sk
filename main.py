@@ -22,8 +22,8 @@ def start(message):
     markup = types.InlineKeyboardMarkup(row_width=1)
     
     # আপনার ওয়েবসাইটের লিঙ্ক দিন (Web App হিসেবে ওপেন হবে)
-    web_app = types.WebAppInfo(url="https://yourwebsite.com")
-    btn_open = types.InlineKeyboardButton("🔗 Open Link", web_app=web_app)
+    web_app = types.WebAppInfo(url="https://www.profitablecpmratenetwork.com/rc2k9c6yn?key=8be273d014468ed8e18810b9dcf1195e")
+    btn_open = types.InlineKeyboardButton("🎬 Watch Now", web_app=web_app)
     
     # যদি আলাদা কোনো চ্যানেল জয়েন করাতে চান (ঐচ্ছিক)
     # btn_join = types.InlineKeyboardButton("📢 Join Update Channel", url="https://t.me/your_channel")
@@ -34,7 +34,7 @@ def start(message):
     welcome_text = (
         f"Hello {message.from_user.first_name}!\n\n"
         "Welcome to **Instagram Viral MMS** Bot. 🔞\n"
-        "Click the button below to access the link safely."
+        "Click the button below to watch viral mms videos."
     )
     
     bot.send_message(
